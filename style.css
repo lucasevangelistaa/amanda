@@ -35,9 +35,9 @@ h1, h2 {
 }
 
 section {
-    font-size: 1.3em;
+    font-size: 1.5em;
     padding: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     margin: auto;
 }
 
@@ -115,5 +115,10 @@ footer p {
         height: 400px;
         background-size: auto;
     }
-    
+    section {
+        font-size: 1.3em;
+        padding: 10px;
+        margin-bottom: 30px;
+        margin: auto;
+    }
 }
