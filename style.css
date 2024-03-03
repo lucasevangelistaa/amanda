@@ -55,13 +55,18 @@ button {
 .img {
     background-color: rgb(53, 52, 52);
     color: white;
-    text-shadow: 2px 2px 0px black;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.247);
 }
 
 span, p {
     text-align: left;
     line-height: 2.1em;
+}
+.img p{
+    text-shadow: 2px 2px 0px black;
+}
+span {
+    color: darkblue;
 }
 
 .img01 {
