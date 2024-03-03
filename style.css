@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: cursive, "Dancing Script", Arial;
+    font-family: "Dancing Script", cursive, Arial;
 }
 
 main {
@@ -56,17 +56,16 @@ button {
     background-color: rgb(53, 52, 52);
     color: white;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.247);
+    text-shadow: 1px 1px 1px black;
 }
 
 span, p {
     text-align: left;
     line-height: 2.1em;
 }
-.img p{
-    text-shadow: 2px 2px 0px black;
-}
+
 span {
-    color: darkblue;
+    border-bottom: 1px solid;
 }
 
 .img01 {
