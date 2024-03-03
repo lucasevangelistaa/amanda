@@ -1,0 +1,115 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: cursive, "Dancing Script", Arial;
+}
+
+main {
+    margin: auto;
+    max-width: 800px;
+    width: 100%;
+}
+
+header {
+    padding: 20px;
+    border-bottom: 1px solid;
+    margin-bottom: 20px;
+}
+
+iframe {
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto;
+    width: 300px;
+    height: 200px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+section {
+    font-size: 1.2em;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin: auto;
+}
+
+button {
+    display: block;
+    margin: 10px auto;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(166, 166, 250);
+}
+
+.img {
+    background-color: rgb(53, 52, 52);
+    color: white;
+    text-shadow: 2px 2px 0px black;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.247);
+}
+
+span, p {
+    text-align: left;
+    line-height: 2.1em;
+}
+
+.img01 {
+    background-image: url('imagens/img01.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.img02 {
+    background-image: url('imagens/img02.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.img03 {
+    background-image: url('imagens/img03.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+footer {
+    padding: 20px;
+}
+
+footer p {
+    text-align: center;
+}
+
+@media screen and (min-width: 700px) {
+    .img01 {
+        height: 400px;
+        background-size: auto;
+    }
+    
+    .img02 {
+        height: 400px;
+        background-size: auto;
+    }
+    
+    .img03 {
+        height: 400px;
+        background-size: auto;
+    }
+    
+}
