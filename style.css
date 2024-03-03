@@ -35,7 +35,7 @@ h1, h2 {
 }
 
 section {
-    font-size: 1.2em;
+    font-size: 1.3em;
     padding: 10px;
     margin-bottom: 20px;
     margin: auto;
@@ -61,7 +61,7 @@ button {
 
 span, p {
     text-align: left;
-    line-height: 2.1em;
+    line-height: 2em;
 }
 
 span {
